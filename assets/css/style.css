@@ -88,12 +88,11 @@ header h1 {
 
 .sections {
   /*  display: flex; */
-
+align-items: flex-start;
   width: 40vw;
-
   margin: 33%;
-  padding: 30px;
-  padding-bottom: 50vw;
+  padding: 1em;
+  padding-bottom: 20vw;
   color: #fff;
   font-size: 18px;
   line-height: normal;
@@ -103,63 +102,103 @@ header h1 {
 
 .projects img {
   display: flex;
+  align-items: flex-start;
   justify-items: center;
   flex: 1 1 100px;
-  margin: 5px;
-  max-width: 10em;
-  border-style: none;
+  margin-left: 20px;
+  max-width: 100%;
 
+
+  /* border-style: none;
+  border-width: 5px;
+  border-color: #cb997e; */
 }
+
+
+/* I think this is where you can focus on adjusting the borders */
+#my-projects {
+ 
+ width: 60vw;
+  margin: 33%;
+  padding: 1em;
+  padding-bottom: 47vw; 
+ /* color: #fff;
+  font-size: 18px;
+  line-height: normal;
+  background-color: #b7b7a4;
+  border-radius: 10%;  */
+}
+
+
 
 /* Modify classes */
 
 figure {
   display: grid;
-  border: thin #495867 solid;
+  /* border: thin #495867 solid; */
   display: flex;
   flex-flow: wrap;
-  padding: 3px;
+  padding: 0px;
   max-width: 36%;
- 
   float: left;
 }
 
 
 .run-buddy {
   display: grid;
-  border: thin #495867 solid;
+  /* border: thin #495867 solid; */
+  border-spacing: 0;
   justify-content: center;
-  padding: 0px;
   max-width: 60%;
   margin-left: 10vw;
+
 }
 
 .calculator {
   display: grid;
-  border: thin #495867 solid;
+  /* border: thin #495867 solid; */
+  border-spacing: 0;
   padding: 2px;
   max-width: 36%;
   margin: auto;
-  
   float: left;
 }
 
 .recipe-tracker {
   display: grid;
-  border: thin #495867 solid;
+  /* border: thin #495867 solid; */
+  border-spacing: 0;
   padding: 2px;
   max-width: 36%;
   margin: auto;
   float: right;
 }
 
+.project-two-img {
+  display: grid;
+  float: left;
+  width: 20em;
+  justify-content: space-between;
+ 
+}
+
+.project-three-img  {
+  display: grid;
+  float: right;
+  width: 20em;
+  justify-content: space-between;
+}
+
+/* 
 figcaption {
   background-color: #e7ad99;
   color: #fff;
   font: smaller sans-serif;
-  padding: 4px;
+  padding: 2px;
   margin-right: 0px;
 }
+*/
+
 
 .hover:hover {
   transition: 1s;
@@ -167,31 +206,20 @@ figcaption {
   opacity: 50%;
 }
 
-/* this code has no effect on the page update: section was removed thats why
-.two-projects img {
-  display: grid;
-width: 100%;
-  
-  justify-content: center;
+.hover-run:hover {
+    transition: 1s;
+  image-resolution: #c18c5d;
+  opacity: 50%;
 }
 
-*/
-
-.project-two-img {
+.hover-one a{
   display: grid;
-  float: left;
-  width: 50em;
-  margin-right: 10px;
-  justify-content: space-between;
- 
-}
-
-.project-three-img {
-  display: grid;
-  float: right;
-  width: 20em;
+max-width: 50vw;
+max-height: 35vw;
   justify-content: space-between;
 }
+
+
 
 /* beginning of footer section*/
 .footer {
