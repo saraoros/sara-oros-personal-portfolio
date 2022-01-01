@@ -20,27 +20,13 @@ body {
 }
 
 .hero-img img {
-  margin: 30px 10px 30px;
+  margin: 30px 10px 10px;
   border-radius: 50% 20% / 10% 40%;
   max-width: 15vw;
   max-height: 35vw;
   border-style: groove;
   border-width: 4px;
   border-color: #c18c5d;
-}
-
-/*change class name*/
-#sections {
-  width: 36%;
-  text-align: start;
-  margin: 36%;
-  padding: 30px;
-  padding-bottom: 40px;
-  color: #fff;
-  font-size: 18px;
-  line-height: normal;
-  background-color: #b7b7a4;
-  border-radius: 10%;
 }
 
 header {
@@ -95,4 +81,125 @@ header h1 {
   color: #ce796b;
   margin: 25px 10px 8px;
   text-shadow: 0 0 8px rgba(245, 168, 168, 0.3);
+}
+/* End of Header section */
+
+/* start of sections*/
+
+.sections {
+  /*  display: flex; */
+
+  width: 40vw;
+
+  margin: 33%;
+  padding: 30px;
+  padding-bottom: 50vw;
+  color: #fff;
+  font-size: 18px;
+  line-height: normal;
+  background-color: #b7b7a4;
+  border-radius: 10%;
+}
+
+.projects img {
+  display: flex;
+  justify-items: center;
+  flex: 1 1 100px;
+  margin: 5px;
+  max-width: 10em;
+  border-style: none;
+
+}
+
+/* Modify classes */
+
+figure {
+  display: grid;
+  border: thin #495867 solid;
+  display: flex;
+  flex-flow: wrap;
+  padding: 3px;
+  max-width: 36%;
+ 
+  float: left;
+}
+
+
+.run-buddy {
+  display: grid;
+  border: thin #495867 solid;
+  justify-content: center;
+  padding: 0px;
+  max-width: 60%;
+  margin-left: 10vw;
+}
+
+.calculator {
+  display: grid;
+  border: thin #495867 solid;
+  padding: 2px;
+  max-width: 36%;
+  margin: auto;
+  
+  float: left;
+}
+
+.recipe-tracker {
+  display: grid;
+  border: thin #495867 solid;
+  padding: 2px;
+  max-width: 36%;
+  margin: auto;
+  float: right;
+}
+
+figcaption {
+  background-color: #e7ad99;
+  color: #fff;
+  font: smaller sans-serif;
+  padding: 4px;
+  margin-right: 0px;
+}
+
+.hover:hover {
+  transition: 1s;
+  image-resolution: #c18c5d;
+  opacity: 50%;
+}
+
+/* this code has no effect on the page update: section was removed thats why
+.two-projects img {
+  display: grid;
+width: 100%;
+  
+  justify-content: center;
+}
+
+*/
+
+.project-two-img {
+  display: grid;
+  float: left;
+  width: 50em;
+  margin-right: 10px;
+  justify-content: space-between;
+ 
+}
+
+.project-three-img {
+  display: grid;
+  float: right;
+  width: 20em;
+  justify-content: space-between;
+}
+
+/* beginning of footer section*/
+.footer {
+    padding: 8px 8px;
+  background-color: #ecc8af;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  border-radius: 25% 10%;
 }
