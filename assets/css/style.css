@@ -89,7 +89,8 @@ header h1 {
 .sections {
   /*  display: flex; */
   align-items: flex-start;
-  width: 400px;
+  width: auto;
+  height: auto;
   margin: 33%;
   padding: 1em;
   padding-bottom: 20vw;
@@ -101,27 +102,28 @@ header h1 {
   justify-items: center;
 }
 
-.projects img {
-  display: flex;
-  /* align-items: flex-start; */
-  justify-items: center;
-  /* flex: 2 2 100px; */
-  max-width: 100%;
-}
+
 
 #my-projects {
-    
+    align-items: flex-start;
     justify-items: center;
-  width: 400px;
-  height: 500px;
-/* margin: 33%; */
-  margin: 50px auto;
+  width: 50%;
+  height: 40em;
+ margin: 50px auto;
  padding-bottom: 10vw;
   color: #fff;
   font-size: 18px;
   line-height: normal;
   background-color: #b7b7a4;
   border-radius: 10%;
+}
+
+.projects img {
+  display: flex;
+  /* align-items: flex-start; */
+  justify-items: center;
+  /* flex: 2 2 100px; */
+  max-width: 100%;
 }
 
 figure {
@@ -138,15 +140,15 @@ figure {
   display: grid;
   border-spacing: 0;
   justify-content: center;
-  max-width: 60%;
-  margin-left: 10vw;
+  max-width: 100%;
+  /* margin-left: 10vw; */
 }
 
 .calculator {
   display: grid;
   border-spacing: 0;
   padding: 2px;
-  max-width: 36%;
+  max-width: 50%;
   margin: auto;
   float: left;
    /* width: 20em; */
