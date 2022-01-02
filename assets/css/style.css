@@ -88,8 +88,8 @@ header h1 {
 
 .sections {
   /*  display: flex; */
-align-items: flex-start;
-  width: 40vw;
+  align-items: flex-start;
+  width: 400px;
   margin: 33%;
   padding: 1em;
   padding-bottom: 20vw;
@@ -98,44 +98,35 @@ align-items: flex-start;
   line-height: normal;
   background-color: #b7b7a4;
   border-radius: 10%;
+  justify-items: center;
 }
 
 .projects img {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-items: center;
-  flex: 1 1 100px;
-  margin-left: 20px;
+  /* flex: 2 2 100px; */
   max-width: 100%;
-
-
-  /* border-style: none;
-  border-width: 5px;
-  border-color: #cb997e; */
 }
 
-
-/* I think this is where you can focus on adjusting the borders */
 #my-projects {
- 
- width: 60vw;
-  margin: 33%;
-  padding: 1em;
-  padding-bottom: 47vw; 
- /* color: #fff;
+    
+    justify-items: center;
+  width: 400px;
+  height: 500px;
+/* margin: 33%; */
+  margin: 50px auto;
+ padding-bottom: 10vw;
+  color: #fff;
   font-size: 18px;
   line-height: normal;
   background-color: #b7b7a4;
-  border-radius: 10%;  */
+  border-radius: 10%;
 }
-
-
-
-/* Modify classes */
 
 figure {
   display: grid;
-  /* border: thin #495867 solid; */
+  border: thin #495867 solid;
   display: flex;
   flex-flow: wrap;
   padding: 0px;
@@ -143,53 +134,34 @@ figure {
   float: left;
 }
 
-
 .run-buddy {
   display: grid;
-  /* border: thin #495867 solid; */
   border-spacing: 0;
   justify-content: center;
   max-width: 60%;
   margin-left: 10vw;
-
 }
 
 .calculator {
   display: grid;
-  /* border: thin #495867 solid; */
   border-spacing: 0;
   padding: 2px;
   max-width: 36%;
   margin: auto;
   float: left;
+   /* width: 20em; */
 }
 
 .recipe-tracker {
   display: grid;
-  /* border: thin #495867 solid; */
   border-spacing: 0;
   padding: 2px;
   max-width: 36%;
   margin: auto;
   float: right;
+ /* width: 20em; */
 }
 
-.project-two-img {
-  display: grid;
-  float: left;
-  width: 20em;
-  justify-content: space-between;
- 
-}
-
-.project-three-img  {
-  display: grid;
-  float: right;
-  width: 20em;
-  justify-content: space-between;
-}
-
-/* 
 figcaption {
   background-color: #e7ad99;
   color: #fff;
@@ -197,8 +169,6 @@ figcaption {
   padding: 2px;
   margin-right: 0px;
 }
-*/
-
 
 .hover:hover {
   transition: 1s;
@@ -207,23 +177,21 @@ figcaption {
 }
 
 .hover-run:hover {
-    transition: 1s;
+  transition: 1s;
   image-resolution: #c18c5d;
   opacity: 50%;
 }
 
-.hover-one a{
+.hover-one a {
   display: grid;
-max-width: 50vw;
-max-height: 35vw;
+  max-width: 50vw;
+  max-height: 35vw;
   justify-content: space-between;
 }
 
-
-
 /* beginning of footer section*/
 .footer {
-    padding: 8px 8px;
+  padding: 8px 8px;
   background-color: #ecc8af;
   display: flex;
   justify-content: space-between;
@@ -231,3 +199,4 @@ max-height: 35vw;
   top: 0;
   border-radius: 25% 10%;
 }
+
