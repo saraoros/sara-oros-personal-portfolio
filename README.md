@@ -14,7 +14,7 @@ Here is a one stop spot to learn more about myself, including my skills and my l
 - When the images of the applications are clicked, then they are taken to that deployed application
 - The page is has a responsive layout that adapts to my viewport in any screensize
 
-## Deployed Application's URL:
+## GitHub's Application URL:
 
 https://github.com/saraoros/sara-oros-personal-portfolio.git
 
