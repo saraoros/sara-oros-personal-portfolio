@@ -17,5 +17,5 @@ Here is a one stop spot to learn more about myself, including my skills and my l
 ## Deployed Application's URL:
 https://github.com/saraoros/sara-oros-personal-portfolio.git
 
- ![SOportfolio](https://user-images.githubusercontent.com/94159081/148134315-8bea6f7d-0453-4b96-8e72-38f882deea95.png)
+
 
