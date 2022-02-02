@@ -20,7 +20,7 @@ body {
 }
 
 .hero-img img {
-  margin: 30px 10px 10px;
+  margin: 25px 10px 10px;
   border-radius: 50% 20% / 10% 40%;
   max-width: 15vw;
   max-height: 35vw;
@@ -93,7 +93,7 @@ header h1 {
   height: 80%;
   margin: 33%;
   padding: 1em;
-  padding-bottom: 20vw;
+  padding-bottom: 200px;
   color: #fff;
   font-size: 18px;
   line-height: normal;
@@ -103,7 +103,6 @@ header h1 {
 }
 
 #about-my-skills {
-
   font-family: Verdana, Tahoma, sans-serif;
   width: 75%;
   height: 50%;
@@ -134,7 +133,7 @@ section h2 {
   width: 80%;
   height: 40em;
   margin: 50px auto;
-  padding-bottom: 12vw;
+  padding-bottom: 5vw;
   color: #fff;
   font-size: 18px;
   line-height: normal;
@@ -162,7 +161,6 @@ figure {
   flex-flow: wrap;
   padding: 0px;
   max-width: 36%;
-  /* float: left; */
 }
 
 .run-buddy {
