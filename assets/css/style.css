@@ -1,7 +1,7 @@
 body {
-  color: #6b705c;
+  color: #fff;
   font-family: sans-serif;
-  background-color: #f8edeb;
+  background-color: #fff;
 }
 
 /*Image is from www.unsplash.com*/
@@ -16,12 +16,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: 50%;
-  border-radius: 10% 15%;
+  border-radius: 5%;
 }
 
-.hero-img img {
-  margin: 25px 10px 10px;
-  border-radius: 50% 20% / 10% 40%;
+.profile-img {
+  border-radius: 5%;
+  margin-right: 80%;
   max-width: 15vw;
   max-height: 35vw;
   border-style: groove;
@@ -29,28 +29,16 @@ body {
   border-color: #c18c5d;
 }
 
-header {
-  padding: 0px 8px;
-  background-color: #ecc8af;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* position: sticky;
-  position: -webkit-sticky; */
-  top: 0;
-  border-radius: 10%;
-}
 
 header nav ul li a {
   padding: 10px 10px;
   font-family: sans-serif, "Tahoma";
-  color: #6b705c;
+  color: #8c2f39;
   font-weight: bold;
   font-size: 20px;
-  text-shadow: 0 0 10px rgba(#e7ad99, 0.5);
+  text-shadow: 0 0 10px rgba(#d88e75, 0.5);
   text-decoration: none;
   list-style: none;
-  transition: 1s;
 }
 
 header nav {
@@ -60,47 +48,33 @@ header nav {
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 50%;
+ float: inline-end;
   list-style: none;
 }
 
 header nav ul li a:hover {
-  background: #ffe8d6;
+  background: #e29f78;
   font-family: sans-serif, "Tahoma";
-  color: #6b705c;
+  color: #fff;
   border-radius: 25% 10%;
   text-shadow: none;
   font-style: normal;
+  transition: 0.5s;
 }
 
 header h1 {
   font-weight: bold;
   font-family: sans-serif, "Tahoma";
   font-size: 34px;
-  color: #ce796b;
+  color: #8c2f39;
+  border-radius: 5%;
   margin: 25px 10px 8px;
   text-shadow: 0 0 8px rgba(245, 168, 168, 0.3);
 }
 /* End of Header section */
 
 /* Start of Sections */
-
-.sections {
-  /*  display: flex; */
-  align-items: flex-start;
-  width: auto;
-  height: 80%;
-  margin: 33%;
-  padding: 1em;
-  padding-bottom: 200px;
-  color: #fff;
-  font-size: 18px;
-  line-height: normal;
-  background-color: #b7b7a4;
-  border-radius: 10%;
-  justify-items: center;
-}
 
 #about-my-skills {
   font-family: Verdana, Tahoma, sans-serif;
@@ -111,103 +85,38 @@ header h1 {
   color: #fff;
   font-size: 16px;
   line-height: normal;
-  background-color: #b7b7a4;
-  border-radius: 10%;
+  background-color: #8c2f39;
+  border-radius: 5%;
 }
 
 #about-me {
   text-align: center;
-}
+  margin-top: 100px;
+  text-align: center;
+} 
 
 section h2 {
   font-size: 28px;
+  margin-top: 40px;
   font-weight: lighter;
   font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
 }
 
 /* Beginning of projects section */
-#my-projects {
+ #my-projects {
   align-items: flex-start;
   justify-items: center;
   width: 80%;
-  height: 40em;
-  margin: 50px auto;
-  padding-bottom: 5vw;
-  color: #fff;
+  height: 80%;
+  margin: 100px;
+  color: black;
   font-size: 18px;
   line-height: normal;
-  background-color: #495867;
-  border-radius: 10%;
+  background-color: #8c2f39;
+  border-radius: 3%;
 }
 
-.project-two-img,
-.project-three-img {
-  display: flex;
-  align-items: flex-start;
-  justify-items: center;
-  flex: 2 2 100px;
-  max-width: 100%;
-}
-
-.project-one-img {
-  max-width: 100%;
-}
-
-figure {
-  display: grid;
-  border: thin #495867 solid;
-  display: flex;
-  flex-flow: wrap;
-  padding: 0px;
-  max-width: 36%;
-}
-
-.run-buddy {
-  display: grid;
-  border-spacing: 0;
-  justify-content: center;
-  max-width: 80%;
-  margin-left: 10vw;
-}
-
-.calculator {
-  display: grid;
-  border-spacing: 0;
-  max-width: 50%;
-  margin: auto;
-  float: left;
-  width: 20em;
-}
-
-.recipe-tracker {
-  display: grid;
-  border-spacing: 0;
-  max-width: 48%;
-  margin: auto;
-  float: right;
-  width: 20em;
-}
-
-figcaption {
-  background-color: #e7ad99;
-  color: #fff;
-  font: smaller verdana;
-  padding: 2px;
-  margin-right: 3px;
-}
-
-.hover:hover {
-  transition: 1s;
-  image-resolution: #c18c5d;
-  opacity: 50%;
-}
-
-.hover-run:hover {
-  transition: 1s;
-  image-resolution: #c18c5d;
-  opacity: 50%;
-}
 
 .hover-one a {
   display: grid;
