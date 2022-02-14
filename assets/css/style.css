@@ -1,7 +1,7 @@
 body {
   color: #fff;
-  font-family: sans-serif;
-  background-color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #c75146;
 }
 
 /*Image is from www.unsplash.com*/
@@ -15,8 +15,7 @@ body {
   justify-content: center;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 50%;
-  border-radius: 5%;
+  background-position: 90%;
 }
 
 .profile-img {
@@ -25,7 +24,7 @@ body {
   max-width: 15vw;
   max-height: 35vw;
   border-style: groove;
-  border-width: 4px;
+  border-width: 5px;
   border-color: #c18c5d;
 }
 
@@ -33,10 +32,10 @@ body {
 header nav ul li a {
   padding: 10px 10px;
   font-family: sans-serif, "Tahoma";
-  color: #8c2f39;
+  color: #000;
   font-weight: bold;
   font-size: 20px;
-  text-shadow: 0 0 10px rgba(#d88e75, 0.5);
+  text-shadow: 0 0 10px rgba(#000, 0.5);
   text-decoration: none;
   list-style: none;
 }
@@ -54,93 +53,84 @@ header nav ul {
 }
 
 header nav ul li a:hover {
-  background: #e29f78;
-  font-family: sans-serif, "Tahoma";
+  background: #e2a09a;
   color: #fff;
   border-radius: 25% 10%;
-  text-shadow: none;
+  width:fit-content;
   font-style: normal;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 header h1 {
   font-weight: bold;
-  font-family: sans-serif, "Tahoma";
   font-size: 34px;
-  color: #8c2f39;
+  color: #000;
   border-radius: 5%;
   margin: 25px 10px 8px;
   text-shadow: 0 0 8px rgba(245, 168, 168, 0.3);
 }
 /* End of Header section */
 
-/* Start of Sections */
 
-#about-my-skills {
-  font-family: Verdana, Tahoma, sans-serif;
-  width: 75%;
-  height: 50%;
-  margin: 50px auto;
-  padding-bottom: 10vw;
-  color: #fff;
+/* Start of Sections */
+#about-me {
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 25%;
+  margin-right: 15%; 
+  margin-top: 100px;
+  color: #000;
   font-size: 16px;
   line-height: normal;
-  background-color: #8c2f39;
-  border-radius: 5%;
+  background-color: #fff;
 }
 
-#about-me {
-  text-align: center;
-  margin-top: 100px;
-  text-align: center;
-} 
-
-section h2 {
-  font-size: 28px;
-  margin-top: 40px;
-  font-weight: lighter;
-  font-family: Verdana, Tahoma, sans-serif;
-  text-align: center;
+#my-projects {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 10%; 
+ 
 }
 
-/* Beginning of projects section */
- #my-projects {
-  align-items: flex-start;
-  justify-items: center;
-  width: 80%;
-  height: 80%;
-  margin: 100px;
-  color: black;
+
+#my-skills {
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 25%;
+  margin-right: 15%; 
+  margin-top: 50px;
+  margin-bottom: 100px;
+  color: #000;
   font-size: 18px;
   line-height: normal;
-  background-color: #8c2f39;
-  border-radius: 3%;
+ 
 }
 
-
-.hover-one a {
-  display: grid;
-  max-width: 50vw;
-  max-height: 35vw;
-  justify-content: space-between;
-}
 
 /* beginning of footer section*/
 .footer {
   font-size: 18px;
   padding: 8px 8px;
-  background-color: #ecc8af;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  color: #000;
   top: 0;
-  border-radius: 25% 10%;
 }
 
 .footer a {
   font-size: 18px;
   text-decoration: none;
-  color:ivory;
+  color: #000;
+}
+
+.footer a:hover {
+  background: #e2a09a;
+  color: #fff;
+  border-radius: 25% 10%;
+  width:fit-content;
+  padding: 1px;
+  font-style: normal;
+  transition: 0.7s;
 }
 
 @media only screen and (min-width: 780px) {
