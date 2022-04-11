@@ -1,7 +1,7 @@
 body {
   color: #fff;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #c75146;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #eeeeee;
 }
 
 /*Image is from www.unsplash.com*/
@@ -21,13 +21,13 @@ body {
 .profile-img {
   border-radius: 5%;
   margin-right: 80%;
-  max-width: 15vw;
-  max-height: 35vw;
+  margin-left: 15%;
+  max-width: 25vw;
+  max-height: 40vw;
   border-style: groove;
   border-width: 5px;
-  border-color: #c18c5d;
+  border-color: #e2e2e2;
 }
-
 
 header nav ul li a {
   padding: 10px 10px;
@@ -48,7 +48,7 @@ header nav ul {
   display: flex;
   flex-wrap: wrap;
   margin-left: 50%;
- float: inline-end;
+  float: inline-end;
   list-style: none;
 }
 
@@ -56,7 +56,7 @@ header nav ul li a:hover {
   background: #e2a09a;
   color: #fff;
   border-radius: 25% 10%;
-  width:fit-content;
+  width: fit-content;
   font-style: normal;
   transition: 0.7s;
 }
@@ -71,39 +71,35 @@ header h1 {
 }
 /* End of Header section */
 
-
 /* Start of Sections */
 #about-me {
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-left: 25%;
-  margin-right: 15%; 
+  margin-right: 15%;
   margin-top: 100px;
-  color: #000;
-  font-size: 16px;
+  color: rgb(230, 228, 228);
+  font-size: 18px;
   line-height: normal;
-  background-color: #fff;
+  background-color: rgb(81, 103, 129);
 }
 
 #my-projects {
   margin-top: 50px;
   margin-left: 20%;
-  margin-right: 10%; 
- 
+  margin-right: 10%;
 }
 
-
 #my-skills {
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-left: 25%;
-  margin-right: 15%; 
+  margin-right: 15%;
   margin-top: 50px;
   margin-bottom: 100px;
   color: #000;
   font-size: 18px;
   line-height: normal;
- 
+  background-color: rgb(101, 123, 150);
 }
-
 
 /* beginning of footer section*/
 .footer {
@@ -127,7 +123,7 @@ header h1 {
   background: #e2a09a;
   color: #fff;
   border-radius: 25% 10%;
-  width:fit-content;
+  width: fit-content;
   padding: 1px;
   font-style: normal;
   transition: 0.7s;
