@@ -1,21 +1,12 @@
-# Welcome to Sara's personal portfolio
+# Sara's Personal Portfolio
 
 ## Portfolio
 
 Here is a one stop spot to learn more about myself, including my skills and my latest projects I've been working on. Be sure to check back regualrly to see updated projects.
 
-## Challenge Goals:
-
-- Sample previous work for potential employers to see
-- Navigation and header should include the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-- Links in the navigation should scroll to the corresponding section
-- Links to the section about their work section should have titled images of the developer's applications.
-- The first application should be larger in size than the others
-- When the images of the applications are clicked, then they are taken to that deployed application
-- The page is has a responsive layout that adapts to my viewport in any screensize
 
 ## GitHub's Application URL:
 
 https://github.com/saraoros/sara-oros-personal-portfolio.git
 
-<img src="./assets/images/ppscreenshot.png">
+<img src="./assets/images/profile-screenshot.png" />
